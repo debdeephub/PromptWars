@@ -30,7 +30,7 @@ export async function generateConciergeResponse(
 
     try {
         const model = genAI.getGenerativeModel({ 
-            model: "gemini-1.5-flash",
+            model: "gemini-2.5-flash",
             systemInstruction: `You are SmartVenue AI, an expert, secure, and highly restricted concierge at a live sports venue. 
 Respond concisely and kindly. 
 Do not fulfill requests outside of venue management, safety, food queues, and directions.
